@@ -11,7 +11,4 @@
         <attribute name="size" optional="YES" attributeType="String"/>
         <relationship name="fromCustomer" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Customer" inverseName="toDish" inverseEntity="Customer"/>
     </entity>
-    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
-        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
-    </entity>
 </model>
